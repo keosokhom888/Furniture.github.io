@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+/* header_style_Css */
+.header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #648299;
+    color: #ffffff;
+}
+.header .logo{
+    width: 20%;
+    
+}
+.header .logo a img{
+    width: 70px;
+    margin-left: 15%;
+}
+
+.header .nav{
+    width: 80%;
+
+}
+.header .nav ul{
+    display: flex;
+    justify-content: flex-start;
+    /* padding:0 25px ; */
+    list-style: none;
+}
+.header .nav ul li a{
+    padding: 0 25px;
+    font-size: 25px;
+    color: #000000;
+    font-weight: bold;
+    transition: all 0.2s linear;
+}
+.header .nav ul li a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+/* ======================================> */
+.section{
+    width: 100%;
+    background-color: rgb(216, 214, 214);
+    padding: 25px 0;
+}
+.hero_div{
+    /* background-color: #648299; */
+    display: flex;
+    justify-content: space-between;margin: 0 25px;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 10%;
+}
+.hero_div .hero_txt{
+    width: 70%;
+}
+.hero_div .hero_txt  i{
+    color: red;
+    text-decoration: underline;
+}
+.hero_div .hero_txt h1{
+    color: rgb(135, 52, 219);
+    font-size: 50px;
+    font-weight: 700;
+}
+.hero_div .hero_txt h4{
+    color: #111111;     
+    font-size: 25px;
+    text-decoration: underline;
+}
+.hero_div .hero_txt p{
+    font-size: 20px;
+}
+.hero_div .hero_txt  a{
+    display: block;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0 0 25px rgba(0,0,0,0.7);
+    transition: all 0.2s linear;
+}
+.hero_div .hero_txt  a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 25px;
+    text-decoration: underline;
+}
+.hero_div .img{
+    width: 30%;
+     margin-right: 50px;
+}
+.hero_div .img img{
+    width:550px;
+    border-radius: 30px;
+   
+}
+
+.pro_text{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+    color: #C00707;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+
+/* ======== container_fluid ========== */
+.container_fluid{
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #332565;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+.container_fluid .container .content{
+    display: flex;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 10px;
+    /* text-align: center; */
+}
+.content .image {
+    width: 200px;
+    height: 200px;
+    /* background-color: #000000; */
+    padding: 10px;
+}
+.content .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.content .txt{
+    margin-top: -3px;
+    width: 300px;
+    min-height: 200px;
+    padding: 10px;
+}
+.content .txt h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #134E8E;
+}
+.content .txt  .price{
+    padding:  5px 0;
+    /* margin: 5px 0; */
+}
+.content .txt .desc{
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+.content .txt  a{
+    display: block;
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    font-weight: bold;
+    color: #000000;
+    transition: all 0.2s linear;
+}
+.content .txt  a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: underline;
+    border-radius: 25px;
+}
